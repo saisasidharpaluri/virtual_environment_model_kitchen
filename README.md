@@ -47,6 +47,8 @@ Or, just double-click `index.html` to open it directly in Chrome/Edge/Firefox.
 - Realistic bar stools behind the island: round wood seat, black metal legs, chrome footrest ring.
 - Left wall has a colored wainscot with chair rail and baseboard for visual interest.
 - Door removed from the scene per latest request.
+  ![WhatsApp Image 2025-10-15 at 17 44 58_2f76e89d](https://github.com/user-attachments/assets/14317835-3e7f-4084-ada9-8266a1d3fe0c)
+
 
 ## Technical notes
 
