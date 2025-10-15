@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isometric Kitchen Study (Image Reference)</title>
+
+  <!-- Tailwind (utility classes used in info panels) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Three.js core and OrbitControls -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+
+  <!-- App styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div id="general-info" class="info-panel">
+    <strong class="text-xl block mb-1">Isometric Kitchen Study (V9 - Image Ref)</strong>
+    <p class="text-sm">Scene updated to match provided image reference, featuring an L-shaped layout and large window.</p>
+    <ul class="text-xs mt-2 list-disc list-inside">
+      <li>Camera: Orthographic (Isometric)</li>
+      <li>Lighting: PBR Shading & Shadows</li>
+      <li>Interaction: Mouse Rotate/Zoom & Click for Info</li>
+    </ul>
+  </div>
+
+  <div id="component-details" class="info-panel">
+    <strong id="detail-name" class="text-lg block mb-1">Component Name</strong>
+    <p id="detail-description" class="text-sm"></p>
+    <p id="detail-specs" class="text-xs mt-2 text-gray-300"></p>
+  </div>
+
+  <!-- App script -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

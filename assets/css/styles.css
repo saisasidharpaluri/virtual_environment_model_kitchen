@@ -1,0 +1,19 @@
+/* Base layout */
+body { margin: 0; overflow: hidden; font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+canvas { display: block; }
+
+/* Overlay info panels */
+.info-panel {
+  position: absolute;
+  top: 10px;
+  padding: 12px;
+  background: rgba(16, 20, 24, 0.85);
+  color: white;
+  border-radius: 8px;
+  max-width: 350px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s ease;
+}
+#general-info { left: 10px; opacity: 1; }
+#component-details { right: 10px; opacity: 0; pointer-events: none; }
+#component-details.visible { opacity: 1; pointer-events: auto; }
